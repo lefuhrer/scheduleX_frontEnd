@@ -1,3 +1,4 @@
+import React from 'react';
 import ClassConstraintList from './constraints/ClassConstraintList';
 import TermConstraintList from './constraints/TermConstraintList';
 import InstructorConstraintList from './constraints/InstructorConstraintList';

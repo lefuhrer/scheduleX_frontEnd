@@ -1,0 +1,75 @@
+.constraint-form {
+    width: 96%;
+    background: white;
+    padding: 0;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.constraint-form.show {
+    padding: 20px;
+    max-height: 700px;
+    opacity: 1;
+}
+
+.constraint-form input,
+.constraint-form select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.constraint-form .form-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.constraint-form button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.constraint-form .save-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+.constraint-form .cancel-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+}
+
+.constraint-form .save-button:hover {
+    background-color: #45a049;
+}
+
+.constraint-form .cancel-button:hover {
+    background-color: #da190b;
+}
+
+.constraint-form textarea{
+    width: 60%;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.constraint-form textarea:focus{
+    outline: none;
+}

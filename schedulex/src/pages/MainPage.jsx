@@ -36,7 +36,7 @@ function MainPage() {
     };
   
     return (
-        <>
+        <div className="main-page">
         <div className="video-background">
             <video autoPlay muted loop id="myVideo">
                 <source src={backgroundVideo} type="video/mp4" />
@@ -55,7 +55,7 @@ function MainPage() {
         <RegisterForm showRegisterForm={showRegisterForm} onBack={handleBackFromRegister} />
         <ContactSection />  
         <Footer />
-        </>
+        </div>
     );
 }
 

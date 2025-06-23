@@ -1,15 +1,19 @@
-*{
+ .main-page{
     margin: 0;
     padding: 0;
     color: white;
 }
 
-body{
+.main-page nav{
+    color: white;
+}
+
+ .main-page body{
     overflow-x: hidden;
     font-family: 'Inter', sans-serif;
 }
 
-.video-background {
+.main-page .video-background {
     position: fixed;
     right: 0;
     bottom: 0;
@@ -18,7 +22,7 @@ body{
     z-index: -1;
 }
 
-.video-background::after {
+.main-page .video-background::after {
     content: '';
     position: absolute;
     top: 0;
@@ -29,7 +33,7 @@ body{
     z-index: 1;
 }
 
-.video-background video {
+.main-page .video-background video {
     position: absolute;
     top: 50%;
     left: 50%;

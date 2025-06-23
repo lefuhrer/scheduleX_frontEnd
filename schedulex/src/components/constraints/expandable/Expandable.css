@@ -1,0 +1,76 @@
+.expandable-container {
+    display: block;
+    width: 98%;
+    background: white;
+    border: 1px solid rgb(228, 228, 228);
+    border-top: none;
+    padding: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+}
+
+.expandable-container.show {
+    padding: 20px;
+    max-height: 500px;
+    opacity: 1;
+}
+
+.expandable-container h3{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    transform: translateY(-20px);
+    transition: transform 0.4s ease-in-out;
+}
+
+.expandable-container.show h3{
+    transform: translateY(0);
+}
+
+.expandable-container p{
+    font-size: 1rem;
+    margin-bottom: 5px;
+    transform: translateY(-20px);
+    transition: transform 0.4s ease-in-out;
+}
+
+.expandable-container.show p{
+    transform: translateY(0);
+}
+
+.expandable-container .delete-class {
+    transform: translateY(-20px);
+    transition: transform 0.4s ease-in-out;
+}
+
+.expandable-container.show .delete-class {
+    transform: translateY(0);
+}
+
+.button-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.button-actions button{
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.edit-button {
+    background-color: #2196F3;
+}
+
+.delete-button {
+    background-color: #f44336;
+}

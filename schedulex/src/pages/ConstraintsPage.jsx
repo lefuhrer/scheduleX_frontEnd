@@ -7,7 +7,7 @@ function ConstraintsPage() {
   const [activeTab, setActiveTab] = useState('class');
 
   return (
-    <div className="container">
+    <div className="constraints-page-container">
       <div className="left-container">
         <Sidebar activeTab={activeTab} onTabChange={setActiveTab} />
       </div>

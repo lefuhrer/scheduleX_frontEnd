@@ -1,28 +1,28 @@
-*{
+nav *{
     margin: 0;
     padding: 0;
     color: black;
 }
 
-body{
+nav body{
     overflow-x: hidden;
     font-family: 'Inter', sans-serif;
 }
 
 
-ul{
+nav ul{
     list-style: none;
     display: inline-block;
     margin-left: 20px;
 }
 
-ul li {
+nav ul li {
     display: inline-block;
     margin-right: 60px;
     font-size: 1.2rem;
 }
 
-a{
+nav a{
     text-decoration: none;
 }
 
